@@ -91,7 +91,7 @@ header nav a {
     color: black;
 }
 
-.upper-image {
+.topImg {
     margin: 30px 0;
 }
 .top-content {
@@ -124,16 +124,7 @@ header nav a {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box{
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .box1 {
     background-color:teal;
@@ -235,7 +226,18 @@ header nav a {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .top-bottom-about {
     margin: 20px;
     padding-bottom: 10px;
@@ -250,27 +252,6 @@ header nav a {
     padding: 10px 0;git
 }
 
-.middle-div {
-    width: 370px;
-    border-bottom: 1px dashed black;
-    margin: 20px 0;
-    padding-bottom: 30px;
-}
-
-.middle-div img {
-    margin-bottom: 20px;
-}
-.middle-div p {
-    margin: 20px 0;
-}
-
-.middle-div a {
-    text-decoration: none;
-    color: black;
-    border: 2px solid black;
-    border-radius: 8px;
-    padding: 5px 20px;
-}
 
 .bottom-content {
     display: flex;
@@ -284,6 +265,42 @@ header nav a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-page div {
+    border-bottom:2px dotted black;
+    padding:2%;  
+}
+
+.jumbo-about{
+    
+        margin: 30px 0;
+}
+
+.about-imgs {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.about-imgs div{
+    width:45%;
+    margin:0 2%;
+}
+
+.about-imgs img{
+    width:99%;
+}
+
+.about-imgs p{
+    margin:4% 0;
+}
+
+button {
+    padding:3%;
+    border-radius:30%;
+    background-color:white;
+    color:black;
+    width:30%;
 }
 
 footer {
